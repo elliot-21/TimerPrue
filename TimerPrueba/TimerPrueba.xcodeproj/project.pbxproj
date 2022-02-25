@@ -13,6 +13,10 @@
 		C6180ACB27C9878E000C1C02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6180AC927C9878E000C1C02 /* Main.storyboard */; };
 		C6180ACD27C98790000C1C02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6180ACC27C98790000C1C02 /* Assets.xcassets */; };
 		C6180AD027C98790000C1C02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6180ACE27C98790000C1C02 /* LaunchScreen.storyboard */; };
+		C6180AD927C98A7D000C1C02 /* FormularioTimer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6180AD827C98A7D000C1C02 /* FormularioTimer.storyboard */; };
+		C6180ADB27C98A9C000C1C02 /* TimerFormulario.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6180ADA27C98A9C000C1C02 /* TimerFormulario.swift */; };
+		C6180ADE27C98C8A000C1C02 /* AdaptadorModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6180ADD27C98C8A000C1C02 /* AdaptadorModal.swift */; };
+		C6180AE127C98CC1000C1C02 /* FuncionesTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6180AE027C98CC1000C1C02 /* FuncionesTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		C6180ACC27C98790000C1C02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6180ACF27C98790000C1C02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6180AD127C98790000C1C02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6180AD827C98A7D000C1C02 /* FormularioTimer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FormularioTimer.storyboard; sourceTree = "<group>"; };
+		C6180ADA27C98A9C000C1C02 /* TimerFormulario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerFormulario.swift; sourceTree = "<group>"; };
+		C6180ADD27C98C8A000C1C02 /* AdaptadorModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptadorModal.swift; sourceTree = "<group>"; };
+		C6180AE027C98CC1000C1C02 /* FuncionesTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncionesTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,9 @@
 		C6180AB727C9878E000C1C02 = {
 			isa = PBXGroup;
 			children = (
+				C6180ADF27C98CAC000C1C02 /* FuncionesGenerales */,
+				C6180ADC27C98C73000C1C02 /* Modals */,
+				C6180AD727C98A54000C1C02 /* FormularioEmergente */,
 				C6180AC227C9878E000C1C02 /* TimerPrueba */,
 				C6180AC127C9878E000C1C02 /* Products */,
 			);
@@ -65,6 +76,31 @@
 				C6180AD127C98790000C1C02 /* Info.plist */,
 			);
 			path = TimerPrueba;
+			sourceTree = "<group>";
+		};
+		C6180AD727C98A54000C1C02 /* FormularioEmergente */ = {
+			isa = PBXGroup;
+			children = (
+				C6180AD827C98A7D000C1C02 /* FormularioTimer.storyboard */,
+				C6180ADA27C98A9C000C1C02 /* TimerFormulario.swift */,
+			);
+			path = FormularioEmergente;
+			sourceTree = "<group>";
+		};
+		C6180ADC27C98C73000C1C02 /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				C6180ADD27C98C8A000C1C02 /* AdaptadorModal.swift */,
+			);
+			path = Modals;
+			sourceTree = "<group>";
+		};
+		C6180ADF27C98CAC000C1C02 /* FuncionesGenerales */ = {
+			isa = PBXGroup;
+			children = (
+				C6180AE027C98CC1000C1C02 /* FuncionesTimer.swift */,
+			);
+			path = FuncionesGenerales;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +163,7 @@
 			files = (
 				C6180AD027C98790000C1C02 /* LaunchScreen.storyboard in Resources */,
 				C6180ACD27C98790000C1C02 /* Assets.xcassets in Resources */,
+				C6180AD927C98A7D000C1C02 /* FormularioTimer.storyboard in Resources */,
 				C6180ACB27C9878E000C1C02 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +176,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6180AC827C9878E000C1C02 /* ViewController.swift in Sources */,
+				C6180ADE27C98C8A000C1C02 /* AdaptadorModal.swift in Sources */,
+				C6180ADB27C98A9C000C1C02 /* TimerFormulario.swift in Sources */,
 				C6180AC427C9878E000C1C02 /* AppDelegate.swift in Sources */,
+				C6180AE127C98CC1000C1C02 /* FuncionesTimer.swift in Sources */,
 				C6180AC627C9878E000C1C02 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
